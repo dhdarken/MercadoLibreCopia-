@@ -7,11 +7,17 @@
 }
 body {
   background-color: #ebebeb;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
+header {
+  width: 100%;
+}
 .head1 {
   display: flex;
-  width: 100%;
   justify-content: space-evenly;
   align-items: center;
   background-color: rgb(253, 229, 13);
@@ -26,7 +32,6 @@ body {
 
 .buscador {
   display: flex;
-  width: 40%;
   height: 35px;
   justify-content: center;
   align-items: center;
@@ -38,9 +43,9 @@ body {
 }
 .buscador input {
   background-color: beige;
-  width: 100%;
   border: none;
   height: 35px;
+  width: 500px;
 }
 
 .menus {
@@ -280,6 +285,7 @@ body {
   width: 100%;
   justify-content: center;
   align-content: center;
+  padding-bottom: 40px;
 }
 .reloges1 {
   display: flex;
@@ -319,4 +325,83 @@ body {
 
 .precioReciente {
   font-size: 20px;
+}
+
+.sectionSuscripcion {
+  display: flex;
+  width: 86%;
+  gap: 20px;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  border-radius: 5px;
+  background-color: white;
+}
+.suscribirseColor {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  height: 60px;
+  color: white;
+  font-weight: 700;
+  background: linear-gradient(90deg, #a90f90 55%, #0c1a51 100%);
+  justify-content: space-between;
+}
+
+.suscribirseColor p {
+  margin-left: 20px;
+}
+.btnSuscribirse {
+  height: 40%;
+  width: 8%;
+  background-color: #635cc2ab;
+  border: none;
+  color: white;
+  border-radius: 4px;
+  margin-right: 20px;
+}
+
+.Beneficios {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+.Beneficios p {
+  margin-left: 20px;
+  font-weight: 700;
+}
+
+.InfoBeneficios {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.ImgBene1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 30px;
+}
+
+.ImgBene2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 30px;
+}
+
+.imagenBeneficio {
+  width: 50px;
+  border: 1px solid rgb(231, 227, 227);
+}
+
+.PBeneficios {
+  display: flex;
+  color: grey;
+  font-size: 12px;
 }
